@@ -1,0 +1,119 @@
+.gradient-background {
+    background: linear-gradient(300deg, #1b100123, #e2c471, hsla(40, 94%, 25%, 0.914));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+
+    }
+
+    .nav-item{
+      font-size: 18px;
+      font-weight: 500;
+      
+    
+    }
+    .nav-link{
+      color: white;
+      
+    }
+
+    .fs-4{
+      color: white;
+      font-weight: 500;
+      
+    }
+
+    .sancreek-regular {
+      font-family: "Sancreek", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 50px;
+      color: grey;
+    }
+    
+    .title{
+      
+      
+      text-align: center;
+    }
+
+    body{
+      height: auto;
+    }
+
+.fot1{
+  height: 500px;
+  width: 400px;
+  border-radius: 160px;
+  border: double white 10px;
+  margin-top: 50px;
+
+}
+
+.fotos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stare-zdjecia{
+  display: grid;
+  grid-template-rows: auto;
+  padding: 50px;
+
+}
+
+#opis{
+  color: red;
+  background-color: none;
+  text-align: center;
+  margin-top: 25px;;
+  font-size: 30px;
+  color: gray;
+
+}
+.flex-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+
+
+}
+
+.fot{
+  border-radius: 25px;
+  border: double white 10px;
+  height: 200px;
+  width: 200px;
+}
+
+
+@media only screen and (max-width:1000px){
+
+    .flex-container{
+      flex-direction: column;
+      gap: 5px;
+      
+
+    }
+     .stare-zdjecia{
+      padding: 5px
+
+      
+      
+     }
+
+     
+}
